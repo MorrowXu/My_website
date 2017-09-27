@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head> 
+    <meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <title>form</title>
+    <link href="/static/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div style="position:fixed;left:90%;top: 40%;z-index: 10000;">
+            <button onclick="window.location.href='/'" class="btn btn-success">首页</button>
+    </div>
+    <div class="container">
+        <div class="row" style="margin-top: 10px;">
+            <div class="col-md-8 col-md-offset-2" style="background-color: lightgreen;height: 700px;border-radius: 5px;">
+                <div style="color: whitesmoke;text-align: center;">
+                    <h1 class="lead"><b>留言板</b></h1>
+                    <p><b>留下你的信息</b></p>
+                </div>
+                <div style="height: 580px;background-color: lightyellow;border-radius: 5px;">
+                    <div class="container">
+                        <div class="col-md-4 col-md-offset-2" style="padding-top:55px;">
+                            <form role="form">
+                                <div class="form-group">
+                                    <label for="name">姓名:</label>
+                                    <input type="text" class="form-control" id="name" placeholder="请输入姓名"/>
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">邮箱:</label>
+                                    <input type="text" class="form-control" id="email" placeholder="请输入邮箱"/>
+
+                                </div>
+                                <div class="form-group">
+                                    <label for="address">联系地址:</label>
+                                    <input type="text" class="form-control" id="address" placeholder="请输入地址"/>
+                                </div>
+                                <div class="form-group">
+                                    <label for="textarea">留言:</label>
+                                    <textarea class="form-control" id="textarea" placeholder="请留言" style="height: 100px;"></textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button class="btn btn-success">提交</button>
+                                </div>
+                                <div class="form-group">
+                                   <input class="btn btn-success" type="button" value="返回首页" onclick="window.location.href='/'"/>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+		<script src='/static/js/jQuery/jquery-1.11.0.js'></script>
+		<script src="/static/js/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>

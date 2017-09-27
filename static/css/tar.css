@@ -1,0 +1,109 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+.top {
+	background-color: lightgray;
+	padding: 2px;
+	width: 100%;
+}
+
+.top h1 {
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	font-family: "arial narrow"
+}
+
+p {
+	left: 150px;
+}
+
+
+/*
+.scroll {
+	background-color: gray;
+	width: 150px;
+	height: 150px;
+	overflow: scroll;
+}*/
+
+#b {
+	/*	position: fixed;*/
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.guide {
+	position: relative;
+	background-color: dodgerblue;
+	width: 100%;
+	margin-top: 2px;
+}
+
+.guide ul {
+	text-align: center;
+}
+
+.guide li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.guide a:link,
+a:visited {
+	display: block;
+	font-weight: bold;
+	color: white;
+	width: 120px;
+	background-color: none;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.guide a:hover,
+a:active {
+	background-color: darkgrey;
+}
+
+a {
+	background-color: cornflowerblue;
+}
+.box {
+	position: relative;
+	padding: auto;
+	margin: 0;
+	width: 100%;
+	height: auto;
+	background-color: ghostwhite;
+	padding: 0 25%;
+}
+
+#dd {
+	left: 10px;
+}
+
+#ee {
+	background: #98bf21;
+	height: 100px;
+	width: 100px;
+	position: relative;
+}
+
+#gg{
+	background-color: orangered;
+	height:100px;
+	width:150px;
+	position: relative;
+}
+
+#changefont{
+	font: "courier new";
+	font-style: italic;
+	color: mediumvioletred;
+	font-size: 2em;
+}
