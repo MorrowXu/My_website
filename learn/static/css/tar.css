@@ -13,7 +13,7 @@
 	color: black;
 	text-align: center;
 	font-size: 20px;
-	font-family: "arial narrow"
+	font-family: "Microsoft YaHei UI";
 }
 
 p {
@@ -36,43 +36,6 @@ p {
 	text-align: center;
 }
 
-.guide {
-	position: relative;
-	background-color: dodgerblue;
-	width: 100%;
-	margin-top: 2px;
-}
-
-.guide ul {
-	text-align: center;
-}
-
-.guide li {
-	display: inline-block;
-	list-style-type: none;
-}
-
-.guide a:link,
-a:visited {
-	display: block;
-	font-weight: bold;
-	color: white;
-	width: 120px;
-	background-color: none;
-	text-align: center;
-	padding: 8px;
-	text-decoration: none;
-	text-transform: uppercase;
-}
-
-.guide a:hover,
-a:active {
-	background-color: darkgrey;
-}
-
-a {
-	background-color: cornflowerblue;
-}
 .box {
 	position: relative;
 	padding: auto;
@@ -88,6 +51,7 @@ a {
 }
 
 #ee {
+	margin: 20px auto;
 	background: #98bf21;
 	height: 100px;
 	width: 100px;
@@ -95,6 +59,7 @@ a {
 }
 
 #gg{
+	margin: 20px auto;
 	background-color: orangered;
 	height:100px;
 	width:150px;

@@ -19,9 +19,14 @@ from learn import views as learn_views
 
 
 urlpatterns = [
-    url(r'^$', learn_views.index),
+    url(r'^$', learn_views.home),
     url(r'^admin/', admin.site.urls),
     url(r'^test/', learn_views.test),
     url(r'^message_form/',learn_views.message_form),
-    url(r'^pass/', learn_views.passb)
+    url(r'^pass/', learn_views.passb),
+    url(r'^robots.txt', learn_views.robots),
 ]
+
+handler404 = learn_views.page_404
+handler403 = learn_views.page_403
+handler500 = learn_views.page_500
