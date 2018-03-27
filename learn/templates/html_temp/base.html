@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Bootstrap -->
+        <link href="/static/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <title>{% block title %}默认标题{% endblock %}</title>
+    		<style type="text/css">
+			.navbar .nav>li .dropdown-menu {
+				margin: 0;
+			}
+
+			.navbar .nav>li:hover .dropdown-menu {
+				display: block;
+			}
+		</style>
+    </head>
+<body>
+    {% include 'nav.html' %}
+    {% block content %}
+    <div>这里是默认内容，所有继承自这个模板的，如果不覆盖就显示这里的默认内容。</div>
+    {% endblock %}
+{#    {% include 'bottom.html' %}#}
+    <script src='/static/js/jQuery/jquery-1.11.0.js'></script>
+    <script src="/static/js/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
